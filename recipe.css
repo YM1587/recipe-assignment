@@ -1,0 +1,42 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Recipe container styling */
+.recipe-container {
+    max-width: 600px;
+    margin: 20px auto; /* Center the box */
+    padding: 20px;
+    border: 2px solid #d2691e; /* Border color, you can adjust */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff8f0; /* Light background color for a soft look */
+    background-image: url('scrambled eggs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+/* Additional content styling */
+h1 {
+
+    color: green;
+   /* color: #d2691e ;*/
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li, ol li {
+    margin-bottom: 5px;
+}
